@@ -24,4 +24,12 @@ public class Movie {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
